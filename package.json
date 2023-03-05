@@ -1,0 +1,23 @@
+{
+  "name": "ordinalswallet-exporter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@scure/bip32": "^1.1.5",
+    "@scure/bip39": "^1.1.1",
+    "buffer": "^6.0.3",
+    "micro-btc-signer": "^0.4.2",
+    "vue": "^3.2.45",
+    "vue-clipboard2": "^0.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.0"
+  }
+}
